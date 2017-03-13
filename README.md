@@ -1,10 +1,10 @@
-## Grasshopper Components
+## Humpback Grasshopper Components
 The grasshopper components we have created for writing and reading GeoJSON include:
 ### Brep to Polygon
 Takes in Breps, and deconstructs to a curve. Records the height and base_height of the brep for later use in the Polygon to GeoJSON component.<br>
 ![Alt text](/assets/pictures/brepTpPolygon.jpeg)
 ### Polygon to GeoJSON 
-Writes a polygon to a GeoJSON file, where keys can be defined. These keys will be picked up by MapBox and used to render the geometry in the website.
+Writes a polygon to a GeoJSON file, where keys can be defined. These keys will be picked up by MapBox and used to render the geometry in the website.<br>
 ![Alt text](/assets/pictures/PolygonJSON.png)
 #### Polyline Curve (P)
 Polygon or list of polygons to convert to GeoJSON.
@@ -45,7 +45,7 @@ Connect a Boolean toggle to save the file
 If you have multiple polygon to geojson components and wish to merge them into one geojson file, plug the data streams into the GeoJSON Merge component. This creates one feature collection to write to file. You may want to do this so parts of the building express different qualities when rendering (eg: windows blue, mullions black, floor plates red)
 <br> ![Alt text](/assets/pictures/geojsonMerge.jpg)
 ### GeoJSON to Polygon
-Converts a GeoJSON file to a geometry in Grasshopper
+Converts a GeoJSON file to a geometry in Grasshopper<br>
 ![Alt text](/JSONPolygon.png)
 #### GeoJSON (J)
 Input GeoJSON File.
