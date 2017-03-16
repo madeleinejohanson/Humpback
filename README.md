@@ -29,19 +29,19 @@ Example:<br>
 Produces a GeoJSON Feature Collection.
 
 
-###File Write
+### File Write
 Writes the produced GeoJSON Feature Collection to a file. <br>
 ![Alt text](/assets/pictures/fileWrite.jpg)
-####Content 
+#### Content 
 Plug in the results from the Polygon to GeoJSON component
-####File Path
+#### File Path
 Where the new file will be saved to.
-####File Name
+#### File Name
 What the new file will be called.
-####Activate
+#### Activate
 Connect a Boolean toggle to save the file
  
-###Merge GeoJSON to one file
+### Merge GeoJSON to one file
 If you have multiple polygon to geojson components and wish to merge them into one geojson file, plug the data streams into the GeoJSON Merge component. This creates one feature collection to write to file. You may want to do this so parts of the building express different qualities when rendering (eg: windows blue, mullions black, floor plates red)
 <br> ![Alt text](/assets/pictures/geojsonMerge.jpg)
 ### GeoJSON to Polygon
