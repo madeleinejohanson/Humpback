@@ -1,4 +1,5 @@
-## Humpback Grasshopper Components
+# Humpback Grasshopper Components
+To display your 3D GeoJSON buildings in a world map, see https://madeleinejohanson.github.io/UrbanCoDe/ <br>
 The grasshopper components we have created for writing and reading GeoJSON include:
 ### Brep to Polygon
 Takes in Breps, and deconstructs to a curve. Records the height and base_height of the brep for later use in the Polygon to GeoJSON component.<br>
