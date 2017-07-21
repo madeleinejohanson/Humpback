@@ -17,6 +17,7 @@ To specify the height, base height, colour and tag of the polygon on Mapbox, use
     height
     base_height
     colour 
+    layer 
     tag
 Please note that the keys are case sensitive.
 #### Value (V)
