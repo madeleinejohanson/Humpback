@@ -19,6 +19,7 @@ To specify the height, base height, colour and tag of the polygon on Mapbox, use
     colour 
     layer 
     tag
+Layer gives you the ability to turn certain geometry off and on, depending on what key is associated with the layer. Tag enables a on-click text pop up to appear, giving more information about the object. <br>
 Please note that the keys are case sensitive.
 #### Value (V)
 Values of properties. The list should be structured so that the first branch of data is associated with the first key. This allows unique values to be associated with multiple polygons. <br>
